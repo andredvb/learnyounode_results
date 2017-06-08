@@ -13,7 +13,7 @@ callback = function(response)
 	response.setEncoding('utf8')
 	response.on('data', function(data)
 	{
-		str += data;
+		str += data
 		nChar += data.length
 	})
 	response.on('end', function(data)
